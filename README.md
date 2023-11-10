@@ -1,12 +1,14 @@
 # Floating Panel
 
-This project is a fork from https://github.com/Aylur/gnome-shell-extension-floating-panel/tree/main
+#### This project is a fork from https://github.com/Aylur/gnome-shell-extension-floating-panel/tree/main
 
-Thank you @Aylur for this amazing gnome extension
+#### Thank you @Aylur for this amazing gnome extension
 
 
 
-/* 
+
+
+    Note from Aylur:
     I purposefully didn't write customization for this extnsion,
     because I recommend and encourage to write your own theme.
 
@@ -30,19 +32,18 @@ Thank you @Aylur for this amazing gnome extension
     You should delete this stylesheet.css when you write your theme.
     Anything written here will overwrite any theme applied through
         gnome-tweaks.
-*/
 
+```css
+/* floating panel */
+#panel.floating {
+  background-color: #1a1c18;
+  height: 38px;
+  font-size: 14px;
+}
 
-#panel.floating { padding: 8px; }
-#panel.floating .panel-button{
-    margin-top: 8px;
-    margin-bottom: 8px;
+#panel:floating {
+  background-color: transparent;
+  height: 38px;
+  font-size: 14px;
 }
-#panel.floating #panelLeft{ margin-left: 8px; }
-#panel.floating #panelRight{ margin-right: 8px; }
-#panel.floating:floating{
-    border-radius: 99px;
-    box-shadow: inset 0 0 0 0 transparent;
-    border: 8px solid transparent;
-    padding: 0;
-}
+```
