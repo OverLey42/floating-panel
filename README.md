@@ -1,3 +1,15 @@
+# Installation
+go into
+```bash
+cd ~/.local/share/gnome-shell/extensions/
+```
+then download
+```bash
+git clone https://github.com/OverLey42/floating-panel
+```
+after that log out or reastart gnome-shell
+
+
 # Floating Panel
 
 #### This project is a fork from https://github.com/Aylur/gnome-shell-extension-floating-panel/tree/main
