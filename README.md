@@ -7,6 +7,25 @@ then download
 ```bash
 git clone https://github.com/OverLey42/floating-panel
 ```
+add this to youre gnome-shell css
+```bash
+cd ~/.themes/YoureCustomShellTheme/gnome-shell/gnome-shell.css
+```
+```css
+/* floating panel */
+#panel.floating {
+  background-color: #1a1c18;
+  height: 38px;
+  font-size: 14px;
+}
+
+#panel:floating {
+  background-color: transparent;
+  height: 38px;
+  font-size: 14px;
+}
+```
+
 after that log out or reastart gnome-shell
 
 
