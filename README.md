@@ -9,7 +9,7 @@ git clone https://github.com/OverLey42/floating-panel
 ```
 add this to youre gnome-shell css
 ```bash
-cd ~/.themes/YoureCustomShellTheme/gnome-shell/gnome-shell.css
+nano ~/.themes/YoureCustomShellTheme/gnome-shell/gnome-shell.css
 ```
 ```css
 /* floating panel */
