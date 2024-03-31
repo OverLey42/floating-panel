@@ -3,7 +3,7 @@
   "description": "Floats the panel, if there is a window nearby or maximised, it defloats. (fork of: https://github.com/Aylur/gnome-shell-extension-floating-panel)",
   "name": "Floating Panel",
   "shell-version": [
-    "45"
+    "46"
   ],
   "url": "https://github.com/OverLey42/floating-panel",
   "uuid": "floating-panel@overley",
