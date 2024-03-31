@@ -7,6 +7,10 @@ then download
 ```bash
 git clone https://github.com/OverLey42/floating-panel
 ```
+move directory to gnome extension directory
+```bash
+mv floating-panel/floating-panel@overley/ .
+```
 add this to youre gnome-shell css
 ```bash
 nano ~/.themes/YoureCustomShellTheme/gnome-shell/gnome-shell.css
